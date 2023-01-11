@@ -1,9 +1,9 @@
 // 1st import react
 
 import React from "react";
-import Header from "./header";
-import Main from './main';
-import Footer from './footer';
+import Header from "./Header";
+import Main from './Main';
+import Footer from './Footer';
 
 // 2nd build class component
 
