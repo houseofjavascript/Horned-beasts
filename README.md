@@ -71,12 +71,32 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 
 
-Number and name of feature: ________________________________
+Number and name of feature: ____images____________________________
 
-Estimate of time needed to complete: _____
+Estimate of time needed to complete: __30 mins___
 
-Start time: _____
+Start time: _5:30____
 
-Finish time: _____
+Finish time: _5:45____
 
-Actual time needed to complete: _____
+Actual time needed to complete: __15___
+
+Number and name of feature: _________click likes_______________________
+
+Estimate of time needed to complete: ___30mins__
+
+Start time: _6:00pm____
+
+Finish time: __6:20pm___
+
+Actual time needed to complete: ___20mims__
+
+Number and name of feature: _______bootstrap_________________________
+
+Estimate of time needed to complete: ___30mins__
+
+Start time: ____6:30_
+
+Finish time: _7:00____
+
+Actual time needed to complete: __30mims___
