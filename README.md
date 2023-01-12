@@ -100,3 +100,13 @@ Start time: ____6:30_
 Finish time: _7:00____
 
 Actual time needed to complete: __30mims___
+
+Number and name of feature: ___________gallery of horns_____________________
+
+Estimate of time needed to complete: ____1 hour_
+
+Start time: ___2pm__
+
+Finish time: _3pm____
+
+Actual time needed to complete: __1 hour___
