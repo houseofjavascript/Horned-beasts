@@ -3,7 +3,7 @@ import HornedBeast from "./HornedBeasts/Hornedbeasts";
 import data from '../../../data/data.json';
 import './Main.css';
 import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/row';
+import Row from 'react-bootstrap/Row';
 
 class Main extends React.Component {
   render() {
