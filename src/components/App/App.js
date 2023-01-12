@@ -5,11 +5,11 @@ import Header from '../App/Header/Header';
 import Main from '../App/Main/Main';
 import Footer from './Footer/Footer';
 import Modal from 'react-bootstrap/Modal'
-import { toHaveStyle } from "@testing-library/jest-dom/dist/matchers";
+//import { toHaveStyle } from "@testing-library/jest-dom/dist/matchers";
 
 // 2nd build class component
 
-class app extends React.Component {
+class App extends React.Component {
   constructor(props){
     super(props);
     this.state = {
@@ -69,4 +69,4 @@ class app extends React.Component {
 
 // 3rd Export this component, other files can import them
 
-export default app;
+export default App;
