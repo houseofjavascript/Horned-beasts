@@ -25,14 +25,16 @@ class App extends React.Component {
   }
 
   handleSelect = (event) => {
-    let selected = event.target.value;
+    let selected = (event.target.value);
     console.log(typeof selected);
-    if (selected == '1' || selected == '2'|| selected == '3' || selected == '100') {
-      let filteredBeast = beasts.filter(b => b.horns == selected)
+    if (selected === '1' || selected === '2'|| selected === '3'|| selected === '100')  {
+      let parse = parseInt(selected)
+      let filteredBeast = beasts.filter(b => b.horns === parse)
       console.log(beasts)
       this.setState({ allBeast: filteredBeast })
     }
-    else if(selected == 'all') {
+    if (selected === 'All'){
+       console.log(selected)
       this.setState({ allBeast: beasts })
     }
   }
@@ -75,8 +77,8 @@ class App extends React.Component {
               <option value={1}>1</option>
               <option value={2}>2</option>
               <option value={3}>3</option>
-              <option value={100}>Many</option>
-              <option value='all'>All</option>
+              <option value={100}>100</option>
+              <option value='All'>All</option>
             </Form.Select>
           </Form.Group>
         </Form>
