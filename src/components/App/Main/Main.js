@@ -1,6 +1,5 @@
 import React from "react";
 import HornedBeast from "./HornedBeasts/Hornedbeasts";
-import data from '../../../data/data.json';
 import './Main.css';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -12,7 +11,7 @@ class Main extends React.Component {
         <main>
           <Container>
             <Row xs={1} sm={2} md={3} lg={4}>
-              {data.map((hornedBeast, index) => {
+              {this.props.beastsArray.map((hornedBeast, index) => {
                 return <HornedBeast 
                 title={hornedBeast.title} 
                 imageURL={hornedBeast.image_url} 
